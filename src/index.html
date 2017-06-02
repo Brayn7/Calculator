@@ -1,32 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Base</title>
-
-  <meta name="description" content="">
-  <meta name="theme-color" content="#f7c824">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/favicon.png">
-  <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
-
-  <link rel="stylesheet" href="css/styles.css">
-
-</head>
-<body>
-
-<script src="js/vendor/jquery.min.js"></script>
-<script src="js/default.js"></script>
-
-<!-- Google Analytics: change UA-XXXXX-Y ID -->
-<script>
-  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-  ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async defer></script>
-
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Base</title>
+    <meta name="description" content="">
+    <meta name="theme-color" content="#f7c824">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="main" class="container">
+      <div class="inner">
+        <div class="screen">
+          <p>0</p>
+        </div>
+        <div id="buttons">
+          <div class="row-1">
+            <div id="clear" >C</div>
+            <div id="pm" >+/-</div>
+            <div id="prct" >%</div>
+            <div class="operand" id="div" >/</div>
+          </div>
+          <div class="row-2">
+            <div class="number">7</div>
+            <div class="number">8</div>
+            <div class="number">9</div>
+            <div class="operand" id="mult">*</div>
+          </div>
+          <div class="row-3">
+            <div class="number">4</div>
+            <div class="number">5</div>
+            <div class="number">6</div>
+            <div class="operand" id="sub">-</div>
+          </div>
+          <div class="row-4">
+            <div class="number">1</div>
+            <div class="number">2</div>
+            <div class="number">3</div>
+            <div class="operand" id="add">+</div>
+          </div>
+          <div class="row-5">
+            <div class="number">0</div>
+            <div id="decimal">.</div>
+            <div id="eq">=</div>
+          </div>
+        </div>
+      </div>
+      
+      
+    </div>
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/default.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y ID -->
+    <script>
+    window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+    ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  </body>
 </html>
